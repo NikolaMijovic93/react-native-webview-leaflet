@@ -4,8 +4,8 @@
   "name": "react-native-webview-leaflet",
   "version": "4.3.4",
   "scripts": {
-    "prod": "npm run clean && SET NODE_ENV=PROD && webpack",
-    "dev": "npm run clean && SET NODE_ENV=DEV && webpack -p",
+    "prod": "export NODE_ENV=PROD && npm run clean && webpack",
+    "dev": "npm run clean && export NODE_ENV=DEV && webpack -p",
     "clean": "rimraf ./dist",
     "test": "jest",
     "test-watch": "jest --watch"
@@ -42,7 +42,8 @@
   "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.5.0",
-    "react-native": "^0.51.0"
+    "react-native": "^0.51.0",
+    "react-native-webview": "^7.5.0"
   },
   "devDependencies": {
     "assert": "^1.4.1",

@@ -51420,21 +51420,6 @@ module.exports = warning;
 
 /***/ }),
 
-/***/ "./secrets.js":
-/*!********************!*\
-  !*** ./secrets.js ***!
-  \********************/
-/*! exports provided: mapboxToken */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapboxToken", function() { return mapboxToken; });
-const mapboxToken = '';
-
-
-/***/ }),
-
 /***/ "./web/ControlsLayer.js":
 /*!******************************!*\
   !*** ./web/ControlsLayer.js ***!
@@ -52289,7 +52274,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _secrets = __webpack_require__(/*! ../secrets */ "./secrets.js");
+var _secrets = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../secrets'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 var mapLayers = [{
   name: 'OpenStreetMap',

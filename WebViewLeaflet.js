@@ -3,10 +3,11 @@ import {
   View,
   StyleSheet,
   ActivityIndicator,
-  WebView,
   Platform,
   Text,
 } from 'react-native';
+import { WebView } from 'react-native-webview';
+
 import PropTypes from 'prop-types';
 // import Button from './Button';
 // import AssetUtils from 'expo-asset-utils'
